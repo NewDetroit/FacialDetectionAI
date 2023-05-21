@@ -12,8 +12,8 @@ mouse = MouseController()
 min_face_size = 150
 
 # Load the model
-model = model_from_json(open("/Users/shashishmac/PythonProjects/FacialR/Model/facial_expression_model_structure.json", "r").read())
-model.load_weights('/Users/shashishmac/PythonProjects/FacialR/Model/facial_expression_model_weights.h5')
+model = model_from_json(open("/FacialR/Model/facial_expression_model_structure.json", "r").read())
+model.load_weights('/FacialR/Model/facial_expression_model_weights.h5')
 
 # Define the emotions
 emotions = ('angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral')
