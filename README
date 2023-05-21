@@ -1,0 +1,1 @@
+Final1.py uses MTCNN, making it more accurate but drastically killing the framerate, Final2.py uses Haar cascade classifier has a better framerate but lower accuracy and more stuttery.
