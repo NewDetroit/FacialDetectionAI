@@ -10,8 +10,8 @@ mouse = MouseController()
 # Determines how close you need to be, to be detected
 min_face_size = 100
 # Load the pre-trained model
-model = model_from_json(open("/Users/shashishmac/PythonProjects/FacialR/Model/facial_expression_model_structure.json", "r").read())
-model.load_weights('/Users/shashishmac/PythonProjects/FacialR/Model/facial_expression_model_weights.h5')
+model = model_from_json(open("/FacialR/Model/facial_expression_model_structure.json", "r").read())
+model.load_weights('/FacialR/Model/facial_expression_model_weights.h5')
 
 min_face_size = 150
 
